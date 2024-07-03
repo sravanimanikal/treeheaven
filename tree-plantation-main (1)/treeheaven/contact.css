@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.navigation a{
+    text-decoration: none;
+    color: rgb(225, 235, 232);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    border-radius: 19%;
+}
+.hero{
+    height: 80vh;
+    background: url('images/cnt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.text1{
+    font-family: 'Qwigley', cursive;
+    margin-bottom: 0;
+    left: 100%;
+}
+.text2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.text3{
+    width: 60%;
+}
+.pic{
+    width: 200px;
+}
+.layer{
+    height:10vh;
+    background: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+@media(max-width:570px){
+    .d-flex>.organic,.faq{
+        display: none;
+
+    }
+    a.fs-4{
+        padding-right:75%;
+    }
+}
